@@ -1,4 +1,5 @@
-.globl _main
-_main:
-    mov w0, #42
-    ret
+.intel_syntax noprefix
+.globl main
+main:
+        mov rax, 42
+        ret
