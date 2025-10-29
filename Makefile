@@ -3,9 +3,9 @@ CFLAGS=-std=c11 -g -static
 microcc: microcc.c
 
 test: microcc
-        ./test.sh
+		./test.sh
 
 clean:
-        rm -f microcc *.o *~ tmp*
+		rm -f microcc *.o *~ tmp*
 
 .PHONY: test clean
