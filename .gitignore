@@ -58,7 +58,6 @@ dkms.conf
 *~
 *.o
 a.out
-microcc
 
 # Temp files for tests
 tmp*
