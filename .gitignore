@@ -54,9 +54,14 @@ dkms.conf
 # debug information files
 *.dwo
 
-# Project specific files
+# Project specific files (C) - archived
 *~
 *.o
-tmp*
 a.out
 microcc
+
+# Temp files for tests
+tmp*
+
+# Added by cargo
+/target

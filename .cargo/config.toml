@@ -1,0 +1,8 @@
+# Arbitrary shell commands cannot be executed in the alias.
+# Decided to use Makefile instead to wrap cargo commands.
+[alias]
+# Alternative to `make` test
+# test-all = ["build", "--", "./test.sh"]
+
+# Alternative to `make clean`
+# clean-all = "clean && rm -f tmp* tmp.s"
